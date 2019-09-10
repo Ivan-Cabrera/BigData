@@ -3,7 +3,7 @@
 // Datos Masivos
 // Examen Unidad 1
 
-// Definscicion de funcion breakingRecords
+// Definicion de funcion breakingRecords
 // Parametros: Score, lista de puntuaciones de los partidos de una temporada
 
 val score1 = List(10,5,20,20,4,5,2,25,1)      // Lista de puntajes correspondientes a la primer temporada
