@@ -1,2 +1,0 @@
-# BigData
-Practicas en Scala
