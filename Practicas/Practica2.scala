@@ -1,6 +1,6 @@
 // 15510506
 // Ivan Cabrera Reyes
-// Practice 1
+// Practice 2
 // Random forest classifier
 
 // Import libraries
