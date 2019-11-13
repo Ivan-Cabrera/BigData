@@ -20,11 +20,12 @@ val labelIndexer = new StringIndexer()
   .setOutputCol("indexedLabel")
   .fit(data)
 
-// Identify and index the features
+// Identify and index the features.
+// Features values > 4 are continuous.
 val featureIndexer = new VectorIndexer()
   .setInputCol("features")
   .setOutputCol("indexedFeatures")
-  .setMaxCategories(4) // features values > 4 are continuous.
+  .setMaxCategories(4)
   .fit(data)
 
 // Split the data into training and test sets (70% training and 30% for tests).
