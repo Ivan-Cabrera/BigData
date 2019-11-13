@@ -9,6 +9,10 @@ import org.apache.spark.ml.classification.DecisionTreeClassificationModel
 import org.apache.spark.ml.classification.DecisionTreeClassifier
 import org.apache.spark.ml.evaluation.MulticlassClassificationEvaluator
 import org.apache.spark.ml.feature.{IndexToString, StringIndexer, VectorIndexer}
+import org.apache.spark.sql.SparkSession
+
+// Create a SparkSession
+val spark = SparkSession.builder().getOrCreate()
 
 // Load data and convert to DataFrame
 val data = spark.read.format("libsvm").load("data/mllib/sample_libsvm_data.txt")
