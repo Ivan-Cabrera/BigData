@@ -31,7 +31,7 @@ val featureIndexer = new VectorIndexer()
   .setMaxCategories(4)
   .fit(data)
 
-// Split the data into training and test sets (70% training and 30% for tests).
+// Split the data into training and test sets (70% training and 30% for tests)
 val Array(trainingData, testData) = data.randomSplit(Array(0.7, 0.3))
 
 // Create a RandomForest model.
