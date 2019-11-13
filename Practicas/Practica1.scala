@@ -1,6 +1,7 @@
 // 15510506
 // Ivan Cabrera Reyes
 // Practice 1
+// Decision tree classifier
 
 // Import libraries
 import org.apache.spark.ml.Pipeline
