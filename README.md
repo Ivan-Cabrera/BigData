@@ -47,5 +47,3 @@ Las predicciones se realizan evaluando cada clasificador binario y el índice de
 Los clasificadores Naive Bayes son una familia de clasificadores probabilísticos simples y multiclase basados ​​en la aplicación del teorema de Bayes con fuertes supuestos de independencia (ingenuos) entre cada par de características.
 
 Naive Bayes puede ser entrenado de manera muy eficiente. Con un solo paso sobre los datos de entrenamiento, calcula la distribución de probabilidad condicional de cada característica dada cada etiqueta. Para la predicción, aplica el teorema de Bayes para calcular la distribución de probabilidad condicional de cada etiqueta dada una observación.
-
-
