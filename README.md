@@ -1,6 +1,3 @@
-# BigData
-Practicas en Scala
-
 # Unidad 1
 
 ##### Scala es un lenguaje de programación utilizado por un gran número de desarrolladores, principalmente para el tratamiento de los datos, ya que éste integra múltiples herramientas que facilitan la manipulación de los mismos.
