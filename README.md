@@ -50,11 +50,21 @@ En dos espacios dimensionales, este hiperplano es una línea que divide un plano
 
 El objetivo del algoritmo de máquina de vectores de soporte es encontrar un hiperplano en un espacio N-dimensional (N - el número de características) que clasifica claramente los puntos de datos.
 
+Para separar las dos clases de puntos de datos, hay muchos hiperplanos posibles que podrían elegirse. El objetivo es encontrar un plano que tenga el margen máximo, es decir, la distancia máxima entre los puntos de datos de ambas clases. Maximizar la distancia de margen proporciona cierto refuerzo para que los puntos de datos futuros se puedan clasificar con más confianza.
 
+### 1.1.1 Hiperplanos y vectores de soporte
 
+Los hiperplanos son límites de decisión que ayudan a clasificar los puntos de datos. Los puntos de datos que caen a ambos lados del hiperplano se pueden atribuir a diferentes clases. Además, la dimensión del hiperplano depende del número de características. Si el número de características de entrada es 2, entonces el hiperplano es solo una línea. Si el número de características de entrada es 3, entonces el hiperplano se convierte en un plano bidimensional. Se hace difícil imaginar cuando la cantidad de características excede 3.
 
+Los vectores de soporte son puntos de datos que están más cerca del hiperplano e influyen en la posición y orientación del hiperplano. Usando estos vectores de soporte, maximizamos el margen del clasificador. Eliminar los vectores de soporte cambiará la posición del hiperplano. Estos son los puntos que nos ayudan a construir nuestro SVM.
 
+### 1.1.2 Intuición de gran margen
 
+En la regresión logística, tomamos la salida de la función lineal y aplastamos el valor dentro del rango de [0,1] usando la función sigmoide. Si el valor aplastado es mayor que un valor umbral (0.5), le asignamos una etiqueta 1, de lo contrario, le asignamos una etiqueta 0. En SVM, tomamos la salida de la función lineal y si esa salida es mayor que 1, identificamos con una clase y si la salida es -1, la identificamos con otra clase. Dado que los valores de umbral se cambian a 1 y -1 en SVM, obtenemos este rango de valores de refuerzo ([- 1,1]) que actúa como margen.
+
+### 1.1.3 Función de costo y actualizaciones de gradiente
+
+En el algoritmo SVM, buscamos maximizar el margen entre los puntos de datos y el hiperplano. La función de pérdida que ayuda a maximizar el margen es la pérdida de bisagra.
 
 
 
