@@ -428,7 +428,7 @@ Apache Spark tiene APIs nativas para los lenguajes de programación Scala, Pytho
     |                         |    [4.700711573871039E-6,  |                              |                         |
     |                         |    -0.013637817729395586,  |                              |                         |
     |                         |    3.443214816746768E-5,   |                              |                         |
-    |  Support Vector Machine |    -0.027013036831088865,  |       -0.915873876656511     |           1.0           |
+    |   Logistic Regression   |    -0.027013036831088865,  |       -0.915873876656511     |           1.0           |
     |                         |    -6.556152022953873E-5,  |                              |                         |
     |                         |    -4.0643270651957166E-4, |                              |                         |
     |                         |    2.4059610867117147]     |                              |                         |
@@ -436,7 +436,7 @@ Apache Spark tiene APIs nativas para los lenguajes de programación Scala, Pytho
     |                         |    [1.2323986009141667E-5, |                              |                         |
     |                         |    -0.0018782933682339222, |                              |                         |
     |                         |    9.715565399414336E-4,   |                              |                         |
-    |    Logistic Regression  |    -0.018985824897480408,  |      -3.3336194659477796     |    0.9999263839811543   |
+    |  Support Vector Machine |    -0.018985824897480408,  |      -3.3336194659477796     |    0.9999263839811543   |
     |                         |    6.883447363137954E-4,   |                              |                         |
     |                         |    0.016186822235579972,   |                              |                         |
     |                         |    3.590021847055572]      |                              |                         |
@@ -444,7 +444,7 @@ Apache Spark tiene APIs nativas para los lenguajes de programación Scala, Pytho
     |                         |                            |                              |                         |
     |                         |                            |                              |                         |
     |                         |                            |                              |                         |
-    |    Logistic Regression  |         ----------         |          ----------          |    0.8887165854378969   |
+    |   Multilayer Perceptron |         ----------         |          ----------          |    0.8887165854378969   |
     |                         |                            |                              |                         |
     |                         |                            |                              |                         |
     |                         |                            |                              |                         |
